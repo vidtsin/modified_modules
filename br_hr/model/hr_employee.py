@@ -60,11 +60,6 @@ class HrEmployee(models.Model):
             rest = 11 - rest
         if rest != digits[10]:
             raise ValidationError(_("PIS/PASEP Inválido"))
-    
-    
-
-    contrato_trabalho = fields.Char(
-        string=u'Nº do contrato')
 
     pis_pasep = fields.Char(u'PIS/PASEP', size=15)
     ctps = fields.Char('CTPS', help=u'Número da CTPS')

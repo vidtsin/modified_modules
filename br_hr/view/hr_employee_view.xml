@@ -13,9 +13,6 @@
                 <page string="Dados Trabalhistas">
                     <form string="Dados trabalhistas" version="7.0">
                         <group>
-                            <group string="Contrato">
-                                <field name="contrato_trabalho"/>
-                            </group>
                             <group string="CTPS">
                                 <field name="ctps" string="Number"/>
                                 <field name="ctps_series" />
