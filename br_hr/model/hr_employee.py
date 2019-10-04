@@ -61,12 +61,7 @@ class HrEmployee(models.Model):
         if rest != digits[10]:
             raise ValidationError(_("PIS/PASEP Inválido"))
     
-    regime_contratacao = fields.Selection(
-        string=u'Regime de contratação',
-        selection=[('estagio', u'Estágio'),
-                   ('coop', u'Cooperado'),
-                   ('pj', u'Pessoa Jurídica'),
-                   ('clt', u'CLT')])
+    
 
     contrato_trabalho = fields.Char(
         string=u'Nº do contrato')

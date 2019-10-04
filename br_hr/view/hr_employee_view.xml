@@ -13,17 +13,14 @@
                 <page string="Dados Trabalhistas">
                     <form string="Dados trabalhistas" version="7.0">
                         <group>
-                            <!--<group string="Tipo de regime">
-                                <field name="regime_contratacao" required="1"/>
-                            </group>
-                            <group string="Contrato" attrs="{'invisible':[('regime_contratacao','in',('clt','estagio'))]}">
+                            <group string="Contrato">
                                 <field name="contrato_trabalho"/>
                             </group>
-                            <group string="CTPS" attrs="{'invisible':[('regime_contratacao','in',('coop','pj'))]}">
+                            <group string="CTPS">
                                 <field name="ctps" string="Number"/>
                                 <field name="ctps_series" />
                                 <field name="ctps_date"/>
-                            </group>-->
+                            </group>
                             <group string="RG">
                                 <field name="rg" string="Number"/>
                                 <field name="organ_exp"/>
