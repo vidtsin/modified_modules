@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Wordpress Migration",
+    'name': "wordpress_migration_lliege",
     'version': "1.0.0",
     'author': "Sythil Tech",
     'category': "Tools",
